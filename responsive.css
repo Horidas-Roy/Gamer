@@ -1,0 +1,33 @@
+@media screen and (max-width:576px) {
+    /* navbar related style */
+    .navbar-container,
+    .menu-container{
+        flex-direction: column;
+    }
+    .menu-container a{
+        justify-content: center;
+    }
+    .logo-container{
+        margin-bottom: 2rem;
+        margin-top: 3rem;
+    }
+    /* banner related style */
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+    .banner-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+      }
+      .banner-img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .banner-content{
+        width: 100%;
+      }
+}
