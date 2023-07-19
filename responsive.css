@@ -30,4 +30,17 @@
       .banner-content{
         width: 100%;
       }
+
+      /* footer related responsive */
+      .feature-container{
+        grid-template-columns: repeat(3,1fr);
+      }
+      .links-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+      }
+      .condition-container{
+        grid-template-columns: repeat(2,1fr);
+        
+      }
 }
