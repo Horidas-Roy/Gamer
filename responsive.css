@@ -31,6 +31,28 @@
         width: 100%;
       }
 
+      /* online game section related style */
+      .item-container{
+        flex-direction: column;
+        
+      }
+      .item{
+        width: 100%;
+        margin-top: 3rem;
+      }
+      .play-btn{
+        left: 23%;
+      }
+
+      /* game type related responsive */
+      .game-type-section{
+        padding: 0 10px;
+      }
+      .game-type-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+      }
+
       /* footer related responsive */
       .feature-container{
         grid-template-columns: repeat(3,1fr);
