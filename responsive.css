@@ -124,6 +124,9 @@
         display: grid;
         grid-template-columns: repeat(3,1fr);
       }
+      .game-type img {
+        width: 40%;
+      }
 
       /* footer related responsive */
       .feature-container{
