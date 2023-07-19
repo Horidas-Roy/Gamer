@@ -393,6 +393,7 @@ nav {
   border-radius: 50px;
   background: #fff;
   padding: 5px 10px;
+  border: 1px solid #FFF;
   cursor: pointer;
 }
 
@@ -402,7 +403,6 @@ nav {
   border: 1px solid #ff42a5;
   padding: 5px 10px;
   color: #ff42a5;
-  cursor: pointer;
 }
 
 /* footer section related style */
