@@ -44,6 +44,37 @@
         left: 23%;
       }
 
+      /* play section related style  */
+
+      .play-game-section-container{
+        flex-direction: column-reverse;
+      }
+      .play-game-img{
+        width: 80%;
+        border: 1px solid yellow;
+        position: relative;
+      }
+      .play-game-img .play-game-sub-img{
+        
+        left:47%;
+        bottom: -9rem;
+        margin-bottom: 50px;
+      }
+      .play-game-img .play-game-sub-img img{
+        
+        width: 90%;
+        height: 90%;
+      }
+
+      .play-game-content{
+         width: 100%;
+      }
+      #play-content-tittle{
+        text-align: center;
+    }
+    #play-content-description{
+       text-align: center;
+    }
       /* game type related responsive */
       .game-type-section{
         padding: 0 10px;

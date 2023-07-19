@@ -227,6 +227,49 @@ font-size: 1.25rem;
 font-weight: 500;
 margin-top: 10px;
 }
+/* play game section related style */
+.play-game-section-container{
+  max-width: 80%;
+  margin: 120px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.play-game-img{
+  width: 40%;
+  position: relative;
+}
+.play-game-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.play-game-img .play-game-sub-img{
+  position: absolute;
+  width: 20%;
+  height: 15%;
+  object-fit: contain;
+  left:80%;
+  bottom: -3.5rem;
+}
+.play-game-img .play-game-sub-img{
+  width: 200px;
+  height: 230px;
+}
+
+
+.play-game-content{
+  width: 40%;
+}
+
+#play-content-tittle{
+    text-align: start;
+}
+#play-content-description{
+   text-align: start;
+}
+
 
 /* game type section related style */
 
