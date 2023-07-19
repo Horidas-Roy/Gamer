@@ -75,7 +75,6 @@
   }
   .play-game-img {
     width: 80%;
-    border: 1px solid yellow;
     position: relative;
   }
   .play-game-img .play-game-sub-img {
@@ -212,7 +211,6 @@
   }
   .play-game-img {
     width: 80%;
-    border: 1px solid yellow;
     position: relative;
   }
   .play-game-img .play-game-sub-img {

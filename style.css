@@ -39,8 +39,7 @@ body {
 }
 
 /* navbar related style */
-nav {
-}
+
 .navbar-container {
   max-width: 80vw;
   margin: 0 auto;
@@ -95,6 +94,7 @@ nav {
 #tiktok {
   background-image: linear-gradient(#08fff9, #f00044, #000000);
   color: transparent;
+  background-clip: text;
   -webkit-background-clip: text;
 }
 
