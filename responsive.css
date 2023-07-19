@@ -31,6 +31,32 @@
         width: 100%;
       }
 
+      /* gamer section related responsive */
+
+      .gamer-container{
+        
+        flex-direction: column;
+      }
+      .gamer-img{
+        width: 100%;
+      }
+  
+      .gamer-content{
+        width: 100%;
+      }
+      #gamer-tittle{
+        text-align: center;
+      }
+      #gamer-description{
+        text-align: center;
+      }
+      #gamer-btn{
+        text-align: center;
+      }
+      #gamer-text{
+        text-align: center;
+      }
+
       /* online game section related style */
       .item-container{
         flex-direction: column;
@@ -75,6 +101,21 @@
     #play-content-description{
        text-align: center;
     }
+
+    /* career section related responsive */
+    .career-section-container{
+     flex-direction: column;
+    }
+
+    .career-content{
+      width: 100%;
+      padding: 0 1rem;
+    }
+    .career-img{
+      width: 100%;
+    }
+
+    
       /* game type related responsive */
       .game-type-section{
         padding: 0 10px;
