@@ -257,7 +257,7 @@ nav {
 }
 .card-description {
   color: #534c64;
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 500;
   margin-top: 10px;
 }
@@ -388,6 +388,14 @@ nav {
 .game-type img {
   width: 20%;
 }
+
+.game-type {
+  border-radius: 50px;
+  background: #fff;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
 .game-type:hover {
   border-radius: 50px;
   background: #fff;
