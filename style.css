@@ -17,6 +17,11 @@ body {
   color: #fff;
   font-weight: 600;
   font-size: 1.25rem;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+.btn-primary:hover {
+  background: linear-gradient(90deg, #c62578 0%, #de2f89 100%);
 }
 .colorful-text {
   background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
@@ -153,6 +158,9 @@ body {
 }
 #btn-go-rogue {
   background: #4ec5f7;
+}
+#btn-go-rogue:hover {
+  background: #2097cb;
 }
 
 .banner-img {
@@ -357,6 +365,12 @@ body {
   font-weight: 600;
   text-transform: uppercase;
   margin-top: 0.5rem;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+.career-btn:hover{
+  background: #d4c1c1;
 }
 
 .career-img {
